@@ -13,7 +13,7 @@ def scoreLevel(score)
 	end
 end
 
-scores = [55,64,73,82,91]
+scores = [55,64,73,82,91,66,77,88,99]
 scores.each do|score|
 	case scoreLevel(score)
 	when "A"
